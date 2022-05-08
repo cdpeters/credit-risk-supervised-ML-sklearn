@@ -162,7 +162,7 @@ The following accuracy and classification report are the result of using the
 `BalancedRandomForestClassifier` class with number of estimators set to 100.
 
 <div align="center">
-    <img src="images/easy_ensemble_AdaBoost_accuracy.svg"
+    <img src="images/easy_ensemble_adaboost_accuracy.svg"
          alt="easy ensemble AdaBoost accuracy" />
 </div>
 
@@ -170,7 +170,7 @@ The following accuracy and classification report are the result of using the
   highest out of all methods used in the project.
 
 <div align="center">
-    <img src="images/easy_ensemble_AdaBoost.svg"
+    <img src="images/easy_ensemble_adaboost.svg"
          alt="easy ensemble AdaBoost" />
 </div>
 
