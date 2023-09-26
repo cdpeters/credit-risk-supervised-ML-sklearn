@@ -3,12 +3,12 @@
 ## **Overview of Project**
 The following analysis is aimed at applying techniques to deal with class
 imbalance in binary (and even multi class) classification problems. The first
-approach is to use resampling techniques such as oversampling and undersampling
-as well as a combination of the two in conjunction with a logistic regression
-model from scikit-learn. The second approach is to use ensemble learning models
-that have resampling techniques built in from the Imbalanced Learn library. The
-goal is to determine which approaches, if any, yield useful models for
-predicting credit risk.
+approach is to use resampling techniques such as oversampling, undersampling,
+and a combination of both in conjunction with a logistic regression model from
+scikit-learn. The second approach is to use ensemble learning models that have
+resampling techniques built in from the Imbalanced Learn library. The goal is to
+determine which approaches, if any, yield useful models for predicting credit
+risk.
 
 The context for the project is assessing credit risk for loan approvals. The
 dataset is a credit card credit dataset from LendingClub. The dataset is not
@@ -197,4 +197,5 @@ if missing on 10% of accounts that should actually be labeled high risk is
 acceptable, then this model would be the recommendation. If this is not
 acceptable, then none of the models in this project would be recommended for
 this credit risk assessment situation. Improvements should then be sought
-elsewhere to improve high risk recall(different model, other refinements, etc.).
+elsewhere to improve high risk recall (different model, other refinements,
+etc.).
